@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ #menu{
+        Float:left;
+        width: 100%;
+        background-color: #c7367c;
+        border-bottom: 5px white solid;
+
+    }
+    #menu ul li{
+      list-style-type: none;
+      display: inline; 
+    }
+    #menu li a{
+      display: block;
+      width: 11%;
+      border-right: 2px dotted;
+      padding: 1% 4%;
+      float: left;
+      
+      
+      text-align: center;
+    }
+    div.sticky {
+      position: sticky;
+      top: 4px;
+    }
+  
+    #body {
+       background-image: url('img/background.jpg');
+         width: 100%;
+       height: 40vw; 
+       position: static;
+       background-size: 100% 80%;
+       background-repeat: no-repeat;
+       position: static;
+       padding-top: 70px;
+    }
+    #text {
+      float: right;
+      margin-right: 20px;
+      font-weight: 600;
+    }
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* visited link */
+    a:visited {
+      color: white;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #cacaca;
+    }
+
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+
+    #Footer{
+      
+      Float:left;
+      width: 100%;
+      background-color: #c7367c;
+      border-bottom: 5px white solid;
+      bottom: 0;
+      position: fixed;
+      clear: left;
+      text-align: center;
+      height: 2;
+      color: white;
+    }
+.accordion {
+  background-color:#c7367c;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-radius: 6rem;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #f390c0; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  border-radius: 16rem;
+  background-color: #dec0cf;
+  overflow: hidden;
+}
+</style>
+<title>Marangi Painting</title>
+   <link style="padding-top: 5px" rel="shortcut icon" href="img/icon.png">
+</head>
+<body style="font-family:verdana" >
+  <div >
+     <img src="img/icon.png"  height=100em alt="Marangi icon" style="padding-left: 40%" >
+  </div>
+   
+ <div  id="menu" class="sticky">
+  
+  <div width=100% style="background-color: tomato; " >
+    <nav>
+      <ul >
+        <li><a href="index.html"  >Home</a></li> 
+        <li><a href="about.html">About</a></li> 
+        <li><a href="service.html">Services</a></li> 
+        <li><a href="#Comment.html" style="color: #cacaca;">Reference</a></li> 
+        <li><a href="contacts.html" style=" border-right: none;">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</div>
+
+<div style="padding: 5%">
+        <h1>Frequently Asked Questions on Painting services</h1>
+
+      <button class="accordion">Why should I choose Marangi Paintings Company?
+      </button>
+      <div class="panel">
+        <p>Marangi Paintings Company has an established track record of consistently delivering what's needed and wanted on a paining job (Needed with regards to painting process requirements on a particular job and Wanted as far as customer experience is concerned.)
+
+      Our company motto is: "Great looking, long-lasting paint job. Guaranteed!"
+
+      Our mission statement is: "Create great looking, long-lasting paint jobs by consistently exceeding established painting industry quality standards, and to deliver friendly, reliable customer service. Our aim is to earn customers for life"</p>
+      </div>
+
+      <button class="accordion">Do you offer warranty?
+      </button>
+      <div class="panel">
+        <p>Yes, all of our work comes with a warranty</p>
+      </div>
+
+      <button class="accordion">Do you offer charge estimates?
+      </button>
+      <div class="panel">
+        <p>Yes, all of our work comes with a warranty.</p>
+      </div>
+      <button class="accordion">What kind of paint do you use?
+      </button>
+      <div class="panel">
+        <p>We use the only professional quality paints from Sherwin Williams, Kelly Moore, Benjamin Moore and Dunn Edwards, unless the customer requests a different brand.</p>
+      </div>
+      <button class="accordion">Can I leave while your painting crew works?
+      </button>
+      <div class="panel">
+        <p>Yes. Most people we work for are not home while work is going on. While you are at work or running errands, our crew will be busy painting. We are licensed and fully insured so there is nothing to worry about.</p>
+      </div>
+
+      <button class="accordion">What should I look for when hiring a painting contractor?
+      </button>
+      <div class="panel">
+        <p>There are several key things to look for when choosing a painting contractor. At the very least, check to see if they are licensed, insured, experienced and capabile of completing work. Look for reputable companies with local references.</p>
+      </div>
+      <button class="accordion">What Is the best season to paint?
+      </button>
+      <div class="panel">
+        <p>Because of our mild climate we paint year-round. In fact, it can be easier to do exterior painting here during the "summer" than the rainy season.</p>
+      </div>
+
+      <button class="accordion">What can one do to help the project run smoothly?
+      </button>
+      <div class="panel">
+        <p>One of our main goals is to complete your project with as little disruption to your life as possible. Before your project starts we will provide you with a list of things that you can do to help us to complete your project as quickly and smoothly as possible.</p>
+      </div>
+
+      <button class="accordion">Who will be assisting customers by answering their questions?
+      </button>
+      <div class="panel">
+        <p>Maintaining open line of communication with you is very important to us. Your job foreman should be able to answer most questions but please feel free to contact your estimator or contact our office staff at any time to address concerns or answer any questions you may have whatsoever.</p>
+      </div>
+      <button class="accordion">How do you determine the amount of money you will charge for painting ones house
+      </button>
+      <div class="panel">
+        <p>There are many things to consider including: type and size of the painted area; type of windows and other trim work; number and intensity of paint colors; amount of protection needed for plants and furniture; quality of paint used; and the extent of needed paint surface preparation. All of those things will need to be considered in order to provide you with an accurate cost estimate.</p>
+      </div>
+      <button class="accordion">How long can it take to paint ones house?
+      </button>
+      <div class="panel">
+        <p>The process can take as little as 4-5 days from the time we connect with you. However, the actual timeing will depend on the condition of your paint surfaces, the type of work required, our schedule and weather conditions if the project involves exterior work.
+
+      During our consultation with you, we can evaluate your situation and let you know how long we think it will take to complete your painting project.</p>
+      </div> 
+
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<br><br><br><br><br><br>
+<div id="Footer">
+    <p>Copyright © 2020</p>
+     
+  </div>
+</body>
+</html>
